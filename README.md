@@ -30,3 +30,7 @@ For code maintainability
 	
 (Qn 4)
 	- (4a, 4b, 4c, 4d) Using Class & Object concept, three different parrot objects (differnet objects can be passed via constructor) can be created. For future addition of parrots, new objects can be created by passing the state value through the constructor.
+
+Section-B:
+(Qn 1)
+	- Added a new interface Fish implements Animal class with overridden methods fly, swim, walk and sing

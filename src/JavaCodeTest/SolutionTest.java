@@ -6,6 +6,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import org.junit.jupiter.api.Test;
 
+//Unit test is done only for Section-A
+
 class SolutionTest {
 
 	@Test

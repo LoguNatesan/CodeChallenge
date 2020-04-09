@@ -41,5 +41,11 @@ public class Solution {
 		//Parrot Living With Duck
 		Parrot parrotwithduck = new Parrot(new Duck());		
 		parrotwithduck.sing();
+		
+		//Fish
+		Animal fish = (Animal) new Fish();
+		fish.swim();
+		fish.walk();
+		fish.fly();	
 	}
 }
