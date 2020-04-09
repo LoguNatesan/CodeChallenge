@@ -13,8 +13,13 @@ public class Solution {
 		duck.swim();
 		duck.fly();
 		
-		Animal chicken = new Chicken();
-		chicken.fly();
+		Animal roost = new Rooster();
+		roost.sing();
+		
+		Animal chicken = new Chicken("Chicken");
+		Animal rooster = new Chicken("Rooster");
+		
 		chicken.sing();
+		rooster.sing();
 	}
 }

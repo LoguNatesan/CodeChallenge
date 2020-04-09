@@ -22,3 +22,8 @@ For code maintainability
 	- (2c) Added a new extended child class 'Chicken' (is a bird) with overridden method for Sing() to say 'Cluck Cluck' specific to Chicken class
 	- (2d) Added a new overridden method for Fly() to say 'I cannot fly' specific to Chicken class
 	- Added JUNIT test case for solution
+
+(Qn 3)
+	- (3a) Added a new extended child class 'Rooster' (is a bird) with overridden method for Sing() to say 'Cock-a-doodle-doo' specific to Rooster class
+	- (3b) Rooster & Chicken are of same Bird class but different gender (state). Included static final for gender (male or female) and the value cannot be changed throughout the program.
+	- (3c) Included member variable 'type' to differentiate between Chicken & Rooster while instantiating type must be given (either Chicken or Rooster) and appropriate sound will be displayed in console. This is done without using inheritance

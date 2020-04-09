@@ -16,8 +16,16 @@ class SolutionTest {
 		
 		String[] args = new String[10];
 		Solution.main(args);
-		assertEquals(UnitTestConstants.Walk.getAction() + UnitTestConstants.Fly.getAction() + UnitTestConstants.Sing.getAction() + UnitTestConstants.DuckSound.getAction() + UnitTestConstants.Swim.getAction() 
-		+ UnitTestConstants.Fly.getAction() + UnitTestConstants.ChickenCannotFly.getAction() + UnitTestConstants.ChickenSound.getAction(), outContent.toString());
+		assertEquals(UnitTestConstants.Walk.getAction() 
+				+ UnitTestConstants.Fly.getAction() 
+				+ UnitTestConstants.Sing.getAction() 
+				+ UnitTestConstants.DuckSound.getAction() 
+				+ UnitTestConstants.Swim.getAction() 
+				+ UnitTestConstants.Fly.getAction() 
+				+ UnitTestConstants.RoosterSound.getAction()
+				+ UnitTestConstants.ChickenSound.getAction()
+				+ UnitTestConstants.RoosterSound.getAction()
+				, outContent.toString());
 	}
 
 }
