@@ -6,7 +6,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import org.junit.jupiter.api.Test;
 
-//Unit test is done only for Section-A
+//Unit test is done only for Section-A & B
 
 class SolutionTest {
 
@@ -31,6 +31,20 @@ class SolutionTest {
 				+ UnitTestConstants.CatSound.getAction()
 				+ UnitTestConstants.RoosterSound.getAction()
 				+ UnitTestConstants.DuckSound.getAction()
+				+ UnitTestConstants.SharkSize.getAction()
+				+ UnitTestConstants.SharkColour.getAction()
+				+ UnitTestConstants.SharkHabit.getAction()
+				+ UnitTestConstants.SharkCharacter.getAction()
+				+ UnitTestConstants.ClownFishSize.getAction()
+				+ UnitTestConstants.ClownFishColour.getAction()
+				+ UnitTestConstants.ClownFishHabit.getAction()
+				+ UnitTestConstants.ClownFishCharacter.getAction()
+				+ UnitTestConstants.SharkSwim.getAction()
+				+ UnitTestConstants.SharkFly.getAction()
+				+ UnitTestConstants.Fly.getAction() 
+				+ UnitTestConstants.CannotWalk.getAction() 
+				+ UnitTestConstants.ChickenCannotFly.getAction()
+				+ UnitTestConstants.Walk.getAction()
 				, outContent.toString());
 	}
 

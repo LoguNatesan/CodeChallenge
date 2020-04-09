@@ -41,3 +41,8 @@ Section-B:
 (Qn 3)
 	- Added new class Dolphin implemented from Animal class(and not from Fish class) 
 	- Without using inheritance, created Fish object inside Dolphin class and objects are passed while instantiating Dolphin class
+	
+Section-D:
+(Qn 1 & 2)
+	- Created ButterFly class implemented from Animal class with overridden methods fly, swim, walk and sing
+	- Added public function to set as butterfly or Caterpillar and based on input methods fly & walk can be customized for butterfly or caterpillar since behaviour changes over time. 

@@ -64,5 +64,17 @@ public class Solution {
 		Dolphin dolphin = new Dolphin(new Shark());
 		dolphin.swim();
 		dolphin.fly();
+		
+		//ButterFly
+		Butterfly butterfly = new Butterfly();
+		butterfly.setButterfly(true);
+		butterfly.fly();
+		butterfly.walk();
+		
+		//Caterpillar
+		Butterfly caterPillar = new Butterfly();
+		caterPillar.setButterfly(false);
+		caterPillar.fly();
+		caterPillar.walk();
 	}
 }
