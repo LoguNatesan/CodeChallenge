@@ -55,5 +55,14 @@ public class Solution {
 		clownFish.colour();
 		clownFish.canMakeJokes();
 		clownFish.eatotherfish();
+		
+		/*
+		* Dolphin. Eventhough Shark object is passed via constructor, 
+		* only methods inside dolphin will be accessible by dolphin object
+		*/
+		
+		Dolphin dolphin = new Dolphin(new Shark());
+		dolphin.swim();
+		dolphin.fly();
 	}
 }

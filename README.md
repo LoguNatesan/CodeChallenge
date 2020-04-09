@@ -37,3 +37,7 @@ Section-B:
 	
 (Qn 2)
 	- Added two new classes Shark & ClownFish implemented from Fish class with individual state & behaviours
+	
+(Qn 3)
+	- Added new class Dolphin implemented from Animal class(and not from Fish class) 
+	- Without using inheritance, created Fish object inside Dolphin class and objects are passed while instantiating Dolphin class
