@@ -42,10 +42,18 @@ public class Solution {
 		Parrot parrotwithduck = new Parrot(new Duck());		
 		parrotwithduck.sing();
 		
-		//Fish
-		Animal fish = (Animal) new Fish();
-		fish.swim();
-		fish.walk();
-		fish.fly();	
+		//Shark
+		Fish shark = new Shark();
+		shark.size();
+		shark.colour();
+		shark.eatotherfish();
+		shark.canMakeJokes();
+		
+		//Clown Fish
+		Fish clownFish = new ClownFish();
+		clownFish.size();
+		clownFish.colour();
+		clownFish.canMakeJokes();
+		clownFish.eatotherfish();
 	}
 }

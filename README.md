@@ -34,3 +34,6 @@ For code maintainability
 Section-B:
 (Qn 1)
 	- Added a new interface Fish implements Animal class with overridden methods fly, swim, walk and sing
+	
+(Qn 2)
+	- Added two new classes Shark & ClownFish implemented from Fish class with individual state & behaviours

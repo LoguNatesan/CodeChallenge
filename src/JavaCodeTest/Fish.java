@@ -1,25 +1,10 @@
 package JavaCodeTest;
 
-public class Fish implements Animal {	
-	@Override
-	public void swim()
-	{
-		System.out.println("I am swimming");
-	}
+interface Fish extends Animal {
 
-	@Override
-	public void walk() {
-		System.out.println("I cannot walk");	
-	}
-
-	@Override
-	public void fly() {
-		System.out.println("I cannot fly");
-	}
-
-	@Override
-	public void sing() {
-		System.out.println("I cannot sing");
-		
-	}
+	public void size() ;
+	public void colour() ;
+	public void eatotherfish();
+	public void canMakeJokes();
+	public void swim();
 }
