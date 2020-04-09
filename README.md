@@ -46,3 +46,7 @@ Section-D:
 (Qn 1 & 2)
 	- Created ButterFly class implemented from Animal class with overridden methods fly, swim, walk and sing
 	- Added public function to set as butterfly or Caterpillar and based on input methods fly & walk can be customized for butterfly or caterpillar since behaviour changes over time. 
+	
+Section-E:
+	- Without modifying existing classes, made use of console output to count animals that can fly, walk, swim and sing
+	- Used Outputstream and Printstream library to read output from console and compared with respective fly, walk, swim & sing actions
