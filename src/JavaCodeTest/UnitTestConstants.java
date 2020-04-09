@@ -8,7 +8,9 @@ public enum UnitTestConstants {
 	DuckSound("Quack, quack!!"),
 	ChickenSound("Cluck, cluck!!"),
 	ChickenCannotFly("I cannot fly"),
-	RoosterSound("Cock-a-doodle-doo");
+	RoosterSound("Cock-a-doodle-doo"),
+	DogSound("Woof, woof"),
+	CatSound("Meow");
 	
 	private final String _action;
 	

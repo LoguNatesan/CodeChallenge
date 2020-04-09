@@ -27,3 +27,6 @@ For code maintainability
 	- (3a) Added a new extended child class 'Rooster' (is a bird) with overridden method for Sing() to say 'Cock-a-doodle-doo' specific to Rooster class
 	- (3b) Rooster & Chicken are of same Bird class but different gender (state). Included static final for gender (male or female) and the value cannot be changed throughout the program.
 	- (3c) Included member variable 'type' to differentiate between Chicken & Rooster while instantiating type must be given (either Chicken or Rooster) and appropriate sound will be displayed in console. This is done without using inheritance
+	
+(Qn 4)
+	- (4a, 4b, 4c, 4d) Using Class & Object concept, three different parrot objects (differnet objects can be passed via constructor) can be created. For future addition of parrots, new objects can be created by passing the state value through the constructor.

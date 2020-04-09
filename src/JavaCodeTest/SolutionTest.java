@@ -25,6 +25,10 @@ class SolutionTest {
 				+ UnitTestConstants.RoosterSound.getAction()
 				+ UnitTestConstants.ChickenSound.getAction()
 				+ UnitTestConstants.RoosterSound.getAction()
+				+ UnitTestConstants.DogSound.getAction()
+				+ UnitTestConstants.CatSound.getAction()
+				+ UnitTestConstants.RoosterSound.getAction()
+				+ UnitTestConstants.DuckSound.getAction()
 				, outContent.toString());
 	}
 
