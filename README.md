@@ -15,3 +15,10 @@ Section-A:
 For code maintainability
 	- Updated Animal class as interface & Added Walk() method inside Bird class
 	- Since there may be new animals like Fish which cannot Walk, Sing or Fly. This will break the class hierarchy 
+
+(Qn 2)
+	- (2a) Added a new extended child class 'Duck' (is a bird) with overridden method for Sing() to say 'Quack Quack' specific to Duck class. 
+	- (2b) Duck can access swim method from Bird class
+	- (2c) Added a new extended child class 'Chicken' (is a bird) with overridden method for Sing() to say 'Cluck Cluck' specific to Chicken class
+	- (2d) Added a new overridden method for Fly() to say 'I cannot fly' specific to Chicken class
+	- Added JUNIT test case for solution

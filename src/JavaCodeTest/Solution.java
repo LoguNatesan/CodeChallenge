@@ -7,5 +7,14 @@ public class Solution {
 		bird.walk();
 		bird.fly();
 		bird.sing();
+		
+		Animal duck = new Duck();
+		duck.sing();
+		duck.swim();
+		duck.fly();
+		
+		Animal chicken = new Chicken();
+		chicken.fly();
+		chicken.sing();
 	}
 }
